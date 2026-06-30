@@ -1,16 +1,23 @@
-# React + Vite
+React Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: A dynamic React web application that allows users to search for films and instantly retrieve movie posters, release years, and plot summaries.
 
-Currently, two official plugins are available:
+Tech Stack: > * React.js (Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+    OMDb API (RESTful API integration)
 
-## React Compiler
+What I Learned:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Mastered React useState to manage search inputs and handle incoming API data.
 
-## Expanding the ESLint configuration
+    Implemented asynchronous JavaScript (async/await and fetch) to communicate with third-party APIs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Handled edge cases and API error states to improve the user experience.
+
+How to Run Locally:
+
+    Clone the repository.
+
+    Run npm install to download dependencies.
+
+    Run npm run dev to start the local development server.
